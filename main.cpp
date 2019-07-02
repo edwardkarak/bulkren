@@ -115,11 +115,6 @@ INT_PTR CALLBACK frameproc(HWND hwnd, UINT wm, WPARAM wp, LPARAM lp)
 				patgiven = (bool) len;
 
 				EnableWindow(GetDlgItem(hwnd, IDOK), dirchosen && patgiven);
-
-				/*if (dirchosen && patgiven)
-					EnableWindow(GetDlgItem(hwnd, IDOK), TRUE);
-				else
-					EnableWindow(GetDlgItem(hwnd, IDOK), FALSE);*/
 			}
 
 			switch (LOWORD(wp)) {
