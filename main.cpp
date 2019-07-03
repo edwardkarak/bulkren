@@ -13,10 +13,8 @@ std::wstring loadStr(UINT idStr)
 {
 	const wchar_t* p = nullptr;
 	int len = LoadString(nullptr, idStr, reinterpret_cast<LPWSTR>(&p), 0);
-	if (len > 0) {
-		auto x = std::wstring { p, static_cast<size_t>(len) };
-		return x;
-	}
+	if (len > 0)
+		return std::wstring { p, static_cast<size_t>(len) };
 
 	throw std::exception { };
 }
