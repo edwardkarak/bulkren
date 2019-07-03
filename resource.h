@@ -13,7 +13,7 @@
 #define IDS_WIN32ERROR                  111
 #define IDS_ABOUT                       112
 #define IDS_CAP_ABOUT                   113
-#define IDS_CHOSENDIR					          114
+#define IDS_CHOSENDIR                   114
 #define IDC_CHOOSEDIR                   1001
 #define IDC_PATBOX                      1002
 #define IDL_CHOSENDIR                   1003
