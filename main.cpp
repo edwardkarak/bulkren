@@ -9,6 +9,7 @@
 
 void errormsg(LPWSTR lpszFunction);
 
+// load a string from the string table
 std::wstring loadStr(UINT idStr)
 {
 	const wchar_t *p = nullptr;
