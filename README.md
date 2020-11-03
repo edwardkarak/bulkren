@@ -5,7 +5,7 @@ Subdirectories are not renamed.
 ## Usage
 First click the "Choose Directory..." button. A dialog will appear where you can select the directory whose files you want to rename. Select the directory and click OK.
 
-In the following textbox, enter the pattern to be used in renaming the files. A series of consecutive (at least one) pound signs indicates a possibly zero-padded number should replace it. The minimum number of digits is equal to the number of pound signs.  For example ## means a two-digit number should replace the pound symbols. If the number has less than two digits, the left digit is a zero. If the number has greater than 2 digits, then the number will be formatted with no padding. A series of consecutive pound signs may not appear more than once in a pattern.
+In the following textbox, enter the pattern to be used in renaming the files. A series of consecutive (at least one) pound signs indicates a possibly zero-padded number should replace it. The minimum number of digits is equal to the number of pound signs.  For example ## means a two-digit number should replace the pound symbols. If the number has fewer than two digits, the left digit is a zero. If the number has greater than 2 digits, then the number will be formatted with no padding. A series of consecutive pound signs may not appear more than once in a pattern.
 
 ## Example:
 
